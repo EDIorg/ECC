@@ -18,7 +18,7 @@ because 'best practice' drives code design (and vice versa), there will be some 
 holds meeting notes and agendas, as necessary. The agenda for the next call is in the dir's README.
 
 
-### Other repository areas
+## Other repository areas
 ### Wiki
 Documentation about the ECC itself, e.g., 
 * how-tos 
