@@ -26,6 +26,7 @@ holds meeting notes and agendas, as necessary. The agenda for the next call is i
 ## Other repository areas
 ### Wiki
 Documentation about the ECC itself, e.g., 
+* working group products, eg reports, papers
 * how-tos 
 * links out to BP recommendations.
 
