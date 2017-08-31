@@ -3,6 +3,12 @@ ECC =  EML Congruence Checker
 
 The EML Congruence Checker acts as the 'gatekeeper' for datasets entering the PASTA repository. The checks themselves are designed by the data management community. The group talks weekly, over Zoom.
 
+# Current activities
+## checks
+* dateTimeFormatString
+* dateTimeFormat conguence
+## PASTA behavior related to checks
+* checksum optimization
 
 # Contents
 ## <> Code (directories)
