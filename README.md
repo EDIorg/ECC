@@ -1,7 +1,6 @@
-# ECC
-ECC =  EML Congruence Checker
+# EML Congruence Checker
 
-The EML Congruence Checker acts as the 'gatekeeper' for datasets entering the PASTA repository. The checks themselves are designed by the data management community. The group talks weekly, over Zoom.
+The EML Congruence Checker (ECC) acts as the 'gatekeeper' for datasets entering the PASTA repository. The checks themselves are designed by the data management community. The group talks weekly, over Zoom.
 
 # Current activities
 ## checks
@@ -10,17 +9,17 @@ The EML Congruence Checker acts as the 'gatekeeper' for datasets entering the PA
 ## PASTA behavior related to checks
 * checksum optimization (opt in with a query parameter). link to more info here: TBD
 
-# Contents
+# Repository contents
 ## <> Code (directories)
-### Archive
+### archive
 holds a cached version of the cannonical list of checks, which is a dynamic doc (google spreadsheet). 
 
-### Practices
+### practices
 holds check-specific details and notes 
 
 because 'best practice' drives code design (and vice versa), there will be some text here that relates to BP. But this is not the location for BP recommendations. 
 
-### Meetings
+### meetings
 holds meeting notes and agendas, as necessary. The agenda for the next call is in the dir's README.
 
 
