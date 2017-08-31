@@ -5,10 +5,10 @@ The EML Congruence Checker acts as the 'gatekeeper' for datasets entering the PA
 
 # Current activities
 ## checks
-* dateTimeFormatString
-* dateTimeFormat conguence
+* dateTimeFormatString (planned to be in production Nov 2017). For more info, see /practices/
+* dateTimeFormat conguence (planned to be in production Nov 2017). For more info, see /practices/
 ## PASTA behavior related to checks
-* checksum optimization
+* checksum optimization (opt in with a query parameter). link to more info here: TBD
 
 # Contents
 ## <> Code (directories)
