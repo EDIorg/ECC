@@ -5,7 +5,7 @@ The EML Congruence Checker acts as the 'gatekeeper' for datasets entering the PA
 
 
 # Contents
-## Code Directories
+## <> Code (directories)
 ### Archive
 holds a cached version of the cannonical list of checks, which is a dynamic doc (google spreadsheet). 
 
