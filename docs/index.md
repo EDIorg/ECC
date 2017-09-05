@@ -1,14 +1,23 @@
 initial page for ECC docs
 
 Membership:
-LTER: Margaret O'Brien (chair), Corinna Gries, Emery Boose, Dan Bahauddin, Gastil Gastil-Buhl, Jason Downing, Sven Bohm, James Brunt, Mark Servilla, Duane Costa. Associates include Matt Jones, Mark Shildhauer, Ben Leinfleder, Matt Jones and Jing Tao, from the NCEAS Ecoinformatics programming group for DML-related issues.  This IMC working group was formed at the All Scientists Meeting in 2009 at Estes Park.
-Mail list: <a href="mailto:eml-congruencychecker@lternet.edu">eml-congruencychecker-at-lternet.edu</a>
-Meeting notes: <a href="/projects/eml_congruency_checker/meeting_notes">/projects/eml_congruency_checker/meeting_notes</a>
+EDI: Margaret O'Brien (chair), Colin Smith, Duane Costa
 
-<strong>For comments on the Checker and/or checks</strong>, LOG IN and use the "Add new comment" link at the bottom of this page. You will be asked to preview before saving. You may also email the working group with their mail list, above. Comments are especially encouraged during August and September 2012, as the group prepares for acceptance of the checks, software and update plan at the annual IMC meeting.
+LTER: Gastil Gastil-Buhl, Jason Downing, Sven Bohm
+
+History: Work began in 2009 at the LTER All Scientists Meeting in Estes Park, CO, and included contributions from the NCEAS Ecoinformatics programming group for DML-related issues (from Matt Jones, Mark Shildhauer, Ben Leinfleder and Jing Tao). Data-metadata checking was added to the PASTA-based repository of the LTER in 2013. 
+
+
+<strong>Git repository:</strong>
+<a href="https://ediorg.github.com/ECC>https://ediorg.github.com/ECC</a>
 
 <strong>Documentation for the Data Package Quality Engine:</strong>
-https://nis.lternet.edu:8443/display/pasta/Data+Package+Quality+Engine
+<a href="https://nis.lternet.edu:8443/display/pasta/Data+Package+Quality+Engine>https://nis.lternet.edu:8443/display/pasta/Data+Package+Quality+Engine</a>
+
+
+
+ 
+
 
 <strong>Upcoming events:</strong>
 
