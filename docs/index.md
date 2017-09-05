@@ -1,6 +1,6 @@
 Intro to ECC 
 
-## Membership:
+## Membership
 EDI: Margaret O'Brien (chair), Colin Smith, Duane Costa
 
 LTER: Gastil Gastil-Buhl, Jason Downing, Sven Bohm
@@ -14,26 +14,24 @@ History: Work began in 2009 at the LTER All Scientists Meeting in Estes Park, CO
 <strong>Documentation for the Data Package Quality Engine:</strong>
 <a href="https://nis.lternet.edu:8443/display/pasta/Data+Package+Quality+Engine">https://nis.lternet.edu:8443/display/pasta/Data+Package+Quality+Engine</a>
 
-
-
  
-## Timeline:
+## Timeline
 
 <strong>2017</strong>
 * New checks: DateTimeFormatString, DateTimeCongruence, ChecksumPresence
 Release anticipated November.
 
 <strong>2016</strong>
-* EDI funded (<a href="https://environmentaldatainitiative.org/">https://environmentaldatainitiative.org/</a>
+* EDI funded (<a href="https://environmentaldatainitiative.org/">https://environmentaldatainitiative.org/</a>)
 
 <strong>2015</strong>
 * Papers featuring ECC:
- ** Ensuring the quality of data packages in the LTER network data management system
+1. Ensuring the quality of data packages in the LTER network data management system
 M O'Brien, D Costa, M Servilla
 Ecological Informatics 36, 237-246. DOI: 10.1016/j.ecoinf.2016.08.001
- ** The contribution and reuse of LTER data in the Provenance Aware Synthesis Tracking Architecture (PASTA) data repository
-Mark Servilla, , James Brunt, Duane Costa, Jeanine McGann, Robert Waide
-DOI: 10.1016/j.ecoinf.2016.07.003
+2. The contribution and reuse of LTER data in the Provenance Aware Synthesis Tracking Architecture (PASTA) data repository
+Mark Servilla, James Brunt, Duane Costa, Jeanine McGann, Robert Waide
+Ecological Informatics, DOI: 10.1016/j.ecoinf.2016.07.003
 
 <strong>2014</strong>
 
