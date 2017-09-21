@@ -2,8 +2,20 @@
 
 Dir holds meeting notes, as needed. if you add material, please include your name and date in filename, please. 
 
-# Next call: 2017-09-21 11:00-07
+# Next call: 2017-10-05 11:00-07
 Agenda
+* review leadingTrailingWhitespace, consider downgrade (all)
+* dateTime congruence check (Duane)
+* review numericFields check 
+
+# anticipating November release
+* into production: dateTimeFormatString, dateTimeCongruence
+
+
+# leading tralint whi
+* add white space, upload to portal-s, see if there are problems (all)
+
+# past items
 * report from Duane on download optimization with checksum (draft of UI)
 * review priority settings on checks
 * consider checks for ecocomDP dataset (likely postponed)
