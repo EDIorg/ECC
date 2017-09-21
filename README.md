@@ -12,7 +12,7 @@ The EML Congruence Checker (ECC) acts as the 'gatekeeper' for datasets entering 
 # Repository contents
 ## <> Code (directories)
 ### archive
-holds a cached version of the cannonical list of checks, which is a dynamic doc (google spreadsheet). 
+holds a cached version of the canonical list of checks, which is a dynamic doc [google spreadsheet](https://docs.google.com/spreadsheets/d/14r-74onIKdq2oUmn5U7itX5bfBkfJ16_BhaqTEaul74/edit#gid=0). 
 
 ### practices
 holds check-specific details and notes 
