@@ -7,14 +7,10 @@ Agenda
 * review leadingTrailingWhitespace, consider downgrade (all)
 * dateTime congruence check (Duane)
 * review numericFields check 
-
-# anticipating November release
+Anticipating November release
 * into production: dateTimeFormatString, dateTimeCongruence
-
-
-# leading tralint whi
+# leading traling white space experiment: 
 * add white space, upload to portal-s, see if there are problems (all)
-
 # past items
 * report from Duane on download optimization with checksum (draft of UI)
 * review priority settings on checks
