@@ -4,6 +4,7 @@ Dir holds meeting notes, as needed. if you add material, please include your nam
 
 # Next call: 2017-10-05 11:00-07
 Agenda
+* discuss presenting new datetime-related data checks to the LTER IMC during the November water cooler (Nov 13 @ 12 PDT)
 * review leadingTrailingWhitespace, consider downgrade (all)
 * dateTime congruence check (Duane)
 * review numericFields check 
