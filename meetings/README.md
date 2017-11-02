@@ -2,22 +2,19 @@
 
 Dir holds meeting notes, as needed. if you add material, please include your name and date in filename, please. 
 
-# Next call: 2017-11-02 11:00-07
+# Next call: 2017-11-16 11:00-07
 ## Agenda
-* discuss presenting new datetime-related data checks to the LTER IMC during the November water cooler (Nov 13 @ 12 PDT)
-    * Margaret and Colin are traveling that day and not likely to attend 
-    * anticipaged release date? 
-* review results of leadingTrailingWhitespace experiment, consider downgrade (all)
+* feedback from LTER IMC to report/discuss 
+    
+* review results of leadingTrailingWhitespace experiment, consider downgrade 
     * everyone had this action item: 
         * add white space, upload to portal-s, see if there are problems
         * any results to report?
-* progress on 
-    * dateTime congruence check (Duane)
-    * review numericFields check 
+        
 * potential new checks
     * header/attributeName match
     * consider checks for ecocomDP dataset (likely postponed)
 
-## Anticipating November release
-* into production: dateTimeFormatString, dateTimeCongruence
+## November release
+* FYI, would have gone into production 11/15: dateTimeFormatString, dateTimeCongruence
 
