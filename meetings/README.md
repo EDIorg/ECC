@@ -5,6 +5,7 @@ Dir holds meeting notes, as needed. if you add material, please include your nam
 # Next call: 2017-11-16 11:00-07
 ## Agenda
 * feedback from LTER IMC to report/discuss 
+    * watercooler monday, datetime checks went into production wednesday
     
 * review results of leadingTrailingWhitespace experiment, consider downgrade 
     * everyone had this action item: 
