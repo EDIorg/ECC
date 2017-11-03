@@ -5,3 +5,5 @@ Branches:
 2. staging
 3. production
 4. master
+
+[The best practices document is located here.](https://github.com/EDIorg/ECC/blob/master/practices/dateTimeFormatString/best_practice.md)
