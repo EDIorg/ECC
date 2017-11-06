@@ -28,51 +28,33 @@ Valid date time formats are a combination of date, time, and timezone strings.
 
 #### Date format strings:
 
-YYYY-MM-DD
-
-YYYY
-
-YYYYMMDD
-
-YYYY-MM
-
-YYYYMM
-
-YYYY-DDD
-
-YYYYDDD
+- YYYY-MM-DD
+- YYY
+- YYYYMMDD
+- YYYY-MM
+- YYYYMM
+- YYYY-DDD
+- YYYYDDD
 
 #### Time format strings:
 
-hh:mm:ss.sss
-
-hhmmss.sss
-
-hh:mm:ss
-
-hhmmss
-
-hh:mm
-
-hhmm
-
-hh
+- hh:mm:ss.sss
+- hhmmss.sss
+- hh:mm:ss
+- hhmmss
+- hh:mm
+- hhmm
+- hh
 
 #### Time zone format strings:
 
-Z
-
-+hh:mm
-
-+hhmm
-
-+hh
-
--hh:mm
-
--hhmm
-
--hh
+- Z
+- +hh:mm
+- +hhmm
+- +hh
+- -hh:mm
+- -hhmm
+- -hh
 
 #### Rules for combining date, time, and timezone:
 
