@@ -13,9 +13,8 @@ PASTA has two checks, (1) confirm that the dateTime/formatString is from an appr
 (2) confirm that datetime values adhere to the asserted dateTime/formatString (for strings in the approved list)
 
 ## Recommendations
-Dates and times should be in ISO format (see below for rules)
-Use 4-digit years
-Include a time zone
+- Dates and times should be in ISO format (see below for rules).
+- Include a time zone when including a time.
 
 ### ISO rules:
 In dates, no separator or one separator:”-”
