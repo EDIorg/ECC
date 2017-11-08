@@ -73,5 +73,5 @@ YYYY-MM-DDThh:mm:ss-hh
 
 ## Other information
 Description of pasta checks
-Format string in a preferred list)
-Congruence (only for strings in the list)
+* Preferred Format check: this checks that the dateTimeFormatString is in the preferred (recommended) list
+* Congruence check: congruence is the agreement of the dateTimeFormatString in metadata and the values in the data table itself. The congruence check may operate against a broader list of formats than just those in the preferred list (action and list of dateTimeFormatStrings whose congruence can be checked is still to be confirmed by working group)
