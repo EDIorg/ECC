@@ -3,8 +3,12 @@
 Dir holds meeting notes, as needed. if you add material, please include your name and date in filename, please.  Readme should hold agenda of next call.
 
 
-# Next call: 2017-11-09 11:00-07
+# Next call: 2017-11-30 11:00-08
 ## Agenda
+* feedback from LTER IMC to report/discuss 
+* next steps
+
+
 ### Feedback from EDI LPIs to report/discuss 
 * their recommendations
     * The "preferred" list 
