@@ -29,7 +29,7 @@ Valid date time formats are a combination of date, time, and timezone strings.
 #### Date format strings:
 
 - YYYY-MM-DD
-- YYY
+- YYYY
 - YYYYMMDD
 - YYYY-MM
 - YYYYMM
