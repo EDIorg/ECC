@@ -4,9 +4,9 @@ Dir holds meeting notes, as needed. if you add material, please include your nam
 
 # Next call: 2018-02-22 11:00-08
 ## Agenda
-* check for project/funding
+* discuss a check for look for presence of project/funding
 * dateTime congruence check - update/FYI
-* EML 2.2 - anything we should keep in mind?
+* EML 2.2 - anticipated soon. anything we should keep in mind?
 
 
 
