@@ -4,10 +4,10 @@ Dir holds meeting notes, as needed. if you add material, please include your nam
 
 # Next call: 2018-04-12 11:00-08
 ## Agenda
-* progress report - refactoring datetime congruency check to use regular expressions instead of java datetime library.
-* May release summary
-* progress on action items https://github.com/EDIorg/ECC/blob/master/meetings/2018-02-22_notes_mob.md#action-items
-
+* Progress report (Duane) - refactoring datetime congruency check to use regular expressions instead of java datetime library.
+* May release summary 
+* Progress on action items https://github.com/EDIorg/ECC/blob/master/meetings/2018-02-22_notes_mob.md#action-items
+* Implications of EML 2.2
 
 
 
