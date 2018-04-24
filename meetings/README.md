@@ -1,6 +1,6 @@
 # Meetings
 
-Dir holds meeting notes, as needed. if you add material, please include your name and date in filename, please.  Readme should hold agenda of next call.
+Directory holds meeting material. If you add meeting notes, please include your name and date in filename, please.  Readme should hold agenda of next call.
 
 # Next call: 2018-04-12 11:00-08
 ## Agenda
