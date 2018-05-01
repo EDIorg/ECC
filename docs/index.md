@@ -1,4 +1,4 @@
-Intro to ECC 
+# EML Congruence Checker working group 
 
 ## Membership
 EDI: Margaret O'Brien (chair), Colin Smith, Duane Costa
@@ -16,20 +16,24 @@ History: Work began in 2009 at the LTER All Scientists Meeting in Estes Park, CO
 
  
 ## Timeline
+<strong>2018</strong>
+* New checks: DateTimeFormatString, DateTimeCongruence, fundingPresence
+Release planned 2018-May-15.
 
 <strong>2017</strong>
-* New checks: DateTimeFormatString, DateTimeCongruence, ChecksumPresence
-Release anticipated November.
+* New checks: DateTimeFormatString, DateTimeCongruence, ChecksumPresence, checksumCongruence
+Release anticipated November. The two datetime checks were deployed only in development, while issues are worked out. The two checksum checks were released as planned
 
 <strong>2016</strong>
 * EDI funded (<a href="https://environmentaldatainitiative.org/">https://environmentaldatainitiative.org/</a>)
+* ECC working group management transitioned to EDI, with most input coming from LTER IMC members
 
 <strong>2015</strong>
 * Papers featuring ECC:
-1. Ensuring the quality of data packages in the LTER network data management system
+1. Ensuring the quality of data packages in the LTER network data management system.
 M O'Brien, D Costa, M Servilla
 Ecological Informatics 36, 237-246. DOI: 10.1016/j.ecoinf.2016.08.001
-2. The contribution and reuse of LTER data in the Provenance Aware Synthesis Tracking Architecture (PASTA) data repository
+2. The contribution and reuse of LTER data in the Provenance Aware Synthesis Tracking Architecture (PASTA) data repository.
 Mark Servilla, James Brunt, Duane Costa, Jeanine McGann, Robert Waide
 Ecological Informatics, DOI: 10.1016/j.ecoinf.2016.07.003
 
@@ -38,7 +42,7 @@ Ecological Informatics, DOI: 10.1016/j.ecoinf.2016.07.003
 
 
 <strong>2013</strong>
-* ECC working group proposes process for adding and staging new checks
+* LTER ECC working group proposes process for adding and staging new checks
 
 
 <strong>2012</strong>
