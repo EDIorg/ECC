@@ -58,7 +58,7 @@ Valid date time formats are a combination of date, time, and timezone strings.
 
 #### Rules for combining date, time, and timezone:
 
-If reporting a date without time, select one of the date format strings. If reporting a date and time, select one date and one time format string and combine with a single space (e.g. "YYYY-MM-DD hh:mm:ss") or with a "T" (e.g. "YYYY-MM-DDThh:mm:ss"). If reporting a date and time, it is recommended that a time zone specifier be appended without a space (e.g.  "YYYY-MM-DDThh:mm-hh:mm"). Time zone "Z" denotes UTC, and time zone "+" or "-" are times ahead and behind UTC, respectively.
+If reporting a date without time, select one of the date format strings. If reporting a date and time, select one date and one time format string and combine with a single space (e.g. "YYYY-MM-DD hh:mm:ss") or with a "T" (e.g. "YYYY-MM-DDThh:mm:ss"). If reporting a date and time, it is recommended that a time zone specifier be appended without a space (e.g.  "YYYY-MM-DDThh:mm-hh:mmZ"). Time zone "Z" denotes UTC, and time zone "+" or "-" are times ahead and behind UTC, respectively (e.g. "YYYY-MM-DDThh:mm-hh:mm-07:00").
 
 #### Examples of dateTime/formatStrings and congruence:
 
