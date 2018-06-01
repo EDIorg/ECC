@@ -1,7 +1,4 @@
 
-<strong>Upcoming events:</strong>
-
-
 <strong>2013 Events:</strong>
 2013 July: ECC working group proposes process for adding and staging new checks
 
