@@ -19,3 +19,7 @@ yeah, not sure, it is a bit misleading. I wonder if that is something that our g
 Duane Costa [16:39]
 off hand, i don't think so. really, all the checker can say is that the regex failed, but really no way of knowing how or why
 if quotes are used commonly, i suppose we could go the extra step of checking for them and issuing that the checker spotted this issue as part of the error message
+
+
+Note (mob): EML has a quoteCharacter, for CSV handling -- eg, you might choose to export a csv with all "string fields quoted". so it would impact every field, not just dates. Does the DML use the quoteCharacter? and if so, what for?
+Note (another one): move this to an issue, not an agenda item
