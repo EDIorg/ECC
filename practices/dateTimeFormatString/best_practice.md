@@ -63,8 +63,8 @@ If reporting a date without time, select one of the date format strings. If repo
 #### Examples of dateTime/formatStrings and congruence:
 |Format string (metadata)|Compliant data value |Non compliant data values|
 |---|---|---|
-|YYYY-MM-DDThh:mm:ss-hh |2017-06-22T11:50:11-07|2017-06-22T11:50:11-7 (time zone offset has no 0)|
-| | |2017-06-22 11:50:11-7 (time-separator in format string is missing from value) |
+|YYYY-MM-DDThh:mm:ss-hh |2017-06-22T11:50:11-07|2017-06-22T11:50:11-7 <br/> (time zone offset has no 0)|
+| | |2017-06-22 11:50:11-7 <br/> (time-separator in format string is missing) |
 
 ## Other information
 Description of pasta checks
