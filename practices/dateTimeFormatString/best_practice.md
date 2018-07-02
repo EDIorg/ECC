@@ -61,15 +61,10 @@ Valid date time formats are a combination of date, time, and timezone strings.
 If reporting a date without time, select one of the date format strings. If reporting a date and time, select one date and one time format string and combine with a single space (e.g. "YYYY-MM-DD hh:mm:ss") or with a "T" (e.g. "YYYY-MM-DDThh:mm:ss"). If reporting a date and time, it is recommended that a time zone specifier be appended without a space (e.g.  "YYYY-MM-DDThh:mm-hh:mmZ"). Time zone "Z" denotes UTC, and time zone "+" or "-" are times ahead and behind UTC, respectively (e.g. "YYYY-MM-DDThh:mm-hh:mm-07:00").
 
 #### Examples of dateTime/formatStrings and congruence:
-
-Format string (metadata)
-Compliant data value
-Non compliant data values
-YYYY-MM-DDThh:mm:ss-hh
-
-2017-06-22T11:50:11-07
-2017-06-22T11:50:11-7 (time zone offset has no 0)
-2017-06-22 11:50:11-7 (time-separator in format string is missing from value)
+|Format string (metadata)|Compliant data value |Non compliant data values|
+|---|---|---|
+|YYYY-MM-DDThh:mm:ss-hh |2017-06-22T11:50:11-07|2017-06-22T11:50:11-7 (time zone offset has no 0)|
+| | |2017-06-22 11:50:11-7 (time-separator in format string is missing from value) |
 
 ## Other information
 Description of pasta checks
