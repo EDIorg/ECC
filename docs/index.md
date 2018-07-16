@@ -1,6 +1,3 @@
-<h1>EML Congruence Checker working group</h1>
-
-<h2>content below is in markdown </h2>
 # EML Congruence Checker working group 
 
 ## Membership
