@@ -5,6 +5,10 @@ Directory holds meeting material. If you add meeting notes, please put your name
 # Next call: TBD
 ## Agenda
 
+
+These are some notes Margaret saved from a slack conversations. do we have an issue here? 
+
+
 ### quotes in date
 Stevan Earl [16:34]
 so, this is interesting, because the date values in the data set are quoted, maybe?
