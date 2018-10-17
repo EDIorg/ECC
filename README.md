@@ -7,8 +7,9 @@ The website for this working group can be found at https://ediorg.github.io/ECC/
 
 # Current activities
 ## checks
-* dateTimeFormatString (planned to be in production Nov 2017). For more info, see /practices/
-* dateTimeFormat conguence (planned to be in production Nov 2017). For more info, see /practices/
+* dateTimeFormatString - add hh:mm.* (ISO times) to the preferred list
+## EML 2.2
+* planning to start when release date is known
 ## PASTA behavior related to checks
 * checksum optimization (opt in with a query parameter). link to more info here: TBD
 
@@ -20,7 +21,7 @@ holds a cached version of the canonical list of checks, which is a dynamic doc [
 ### practices
 holds check-specific details and notes 
 
-because 'best practice' drives code design (and vice versa), there will be some text here that relates to BP. But this is not the location for BP recommendations. 
+because 'best practice' and code design are related, there will be some text here that relates to BP. But this is not the location for BP recommendations. 
 
 ### meetings
 holds meeting notes and agendas, as necessary. The agenda for the next call is in the dir's README.
@@ -35,4 +36,4 @@ Documentation about the ECC itself, e.g.,
 
 ### Issues
 * TO DOs for the ECC working group
-* suggested new checks from the community
+* suggested new checks from the community. Anyone can add an issue, only a few can add to the canonical list (in google)
