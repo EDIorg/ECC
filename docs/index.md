@@ -1,7 +1,7 @@
 # EML Congruence Checker working group 
 
 ## Membership
-EDI: Margaret O'Brien (chair), Colin Smith, Duane Costa
+EDI: Margaret O'Brien (chair), Duane Costa
 
 LTER: Gastil Gastil-Buhl, Jason Downing, Sven Bohm
 
