@@ -25,7 +25,7 @@ Release planned 2018-May-15.
 Release anticipated November. The two datetime checks were deployed only in development, while issues are worked out. The two checksum checks were released as planned
 
 <strong>2016</strong>
-* EDI funded (<a href="https://environmentaldatainitiative.org/">https://environmentaldatainitiative.org/</a>)
+* EDI funded (<a href="https://edirepository.org/">https://edirepository.org/</a>)
 * ECC working group management transitioned to EDI, with most input coming from LTER IMC members
 
 <strong>2015</strong>
