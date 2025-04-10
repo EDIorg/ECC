@@ -2,9 +2,9 @@
 
 This script generates a list of date and time format strings and their
 corresponding example date strings. These formats are based on EDI's
-recommended set of date and time format strings.
+definitions of acceptable date and time formats
+(https://github.com/PASTAplus/PEP/blob/main/peps/pep-4.md).
 """
-
 
 import csv
 from itertools import permutations
@@ -12,8 +12,11 @@ from itertools import permutations
 
 def generate_date_formats() -> list:
     """
-    :returns: A list of format strings for all permutations of date year,
-        month, and day components.
+    Generates a list of date format strings based on EDI's definitions
+    of acceptable date formats.
+
+    :returns: A list of format strings for all permutations of year, month,
+        and day components.
     """
     components = ["YYYY", "MM", "DD"]
     separators = ["", "/", "-"]
@@ -37,7 +40,14 @@ def generate_date_formats() -> list:
     return format_strings
 
 
-def generate_datetime_formats():
+def generate_datetime_formats() -> list:
+    """
+    Generates a list of date and time format strings based on EDI's definitions
+    of acceptable date and time formats.
+
+    :returns: A list of format strings for all permutations of date, time,
+        and timezone components.
+    """
     date_formats = generate_date_formats()
     time_formats = [
         "hh",
@@ -78,12 +88,14 @@ def generate_datetime_formats():
     return formats
 
 
-def generate_example_date(format):
-    example = "1976-09-23"
-    example_time = "11:11:11.888"
-    example_yyyymmdd = "19760923"
-    example_yyyyd = "1976-250"
-    example_yyyyd_dd = "1976250"
+def generate_example_date(format_string: str) -> str:
+    """
+    Generates an example date string based on the provided format string.
+
+    :param format_string: The format string to generate an example date and time value
+        for.
+    :return: An example date string based on the provided format.
+    """
 
     example_date_time = {
         "YYYY": "1976",
@@ -102,13 +114,22 @@ def generate_example_date(format):
         "-hh": "-07"
     }
 
+    result = None
     for key, value in example_date_time.items():
-        format = format.replace(key, value)
+        result = format_string.replace(key, value)
 
-    return format
+    return result
 
 
-def write_to_csv(formats, file_path):
+def write_to_csv(formats: list, file_path: str) -> None:
+    """
+    Writes the generated date and time format strings and their example
+    date strings to a CSV file.
+
+    :param formats: A list of date and time format strings.
+    :param file_path:  The path to the CSV file to write the format strings to.
+    :return: None
+    """
     with open(file_path, mode='w', newline='') as file:
         csv_writer = csv.writer(file)
         for _, format in enumerate(formats):
@@ -116,13 +137,22 @@ def write_to_csv(formats, file_path):
             csv_writer.writerow([format, example_date])
 
 
-def main():
+def main(csv_file_path: str) -> None:
+    """
+    Main function to generate date and time format strings and write them
+    to a CSV file.
+
+    :param csv_file_path: The path to the CSV file to write the format strings
+        to.
+    :return: None
+    """
     formats = generate_datetime_formats()
-    csv_file_path = '/Users/csmith/Data/ecc/dateTimeFormatString_list.csv'
     write_to_csv(formats, csv_file_path)
     print(
         f"CSV file '{csv_file_path}' has been generated with date and time format strings.")
 
 
 if __name__ == "__main__":
-    main()
+
+    # Example usage
+    main('/Users/csmith/Data/ecc/dateTimeFormatString_list.csv')

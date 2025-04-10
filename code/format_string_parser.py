@@ -79,6 +79,9 @@ class FormatStringFormatter(NodeVisitor):
     def visit_dayMonthYear(self, node, visited_children):
         return ''.join(visited_children)
 
+    def visit_monthYearDate(self, node, visited_children):
+        return ''.join(visited_children)
+
     def visit_yearDayMonth(self, node, visited_children):
         return ''.join(visited_children)
 
@@ -176,6 +179,7 @@ def format_string_visitor(format_string):
                         monthDayYearDateTime /
                         dayMonthYearDateTime /
                         dayBasedDateReversedDateTime /
+                        monthYearDate /
                         monthBasedDate \
                         / dayBasedDate / yearMonth / year / timeZ
         monthBasedDateTime = monthBasedDate T time Z
@@ -195,6 +199,7 @@ def format_string_visitor(format_string):
         dayYearMonth = dayOfMonth dateDash year dateDash month
         monthDayYear = month dateDash dayOfMonth dateDash year
         dayMonthYear = dayOfMonth dateDash month dateDash year
+        monthYearDate = month dateDash year
         
         timeNoMinutesNoOffset = hours
         timeNoMinutesWithOffset = hours offset
@@ -252,10 +257,8 @@ def main():
 
     """
     args = docopt(str(main.__doc__))
-    # input = args['<input>']
-    input = "/Users/csmith/Data/ecc/dateTimeFormatString_list.csv"
-    # output = args['<output>']
-    output = "/Users/csmith/Data/ecc/dateTimeFormatString_regex.csv"
+    input = args['<input>']
+    output = args['<output>']
 
     if input is None:
         fin = sys.stdin
