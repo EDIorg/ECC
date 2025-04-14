@@ -114,11 +114,10 @@ def generate_example_date(format_string: str) -> str:
         "-hh": "-07"
     }
 
-    result = None
     for key, value in example_date_time.items():
-        result = format_string.replace(key, value)
+        format_string = format_string.replace(key, value)
 
-    return result
+    return format_string
 
 
 def write_to_csv(formats: list, file_path: str) -> None:
