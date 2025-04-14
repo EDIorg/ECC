@@ -6,7 +6,9 @@ import pytest
 from pathlib import Path
 
 # Path to the CSV file
-CSV_FILE_PATH = Path(__file__).parent.parent / "practices/dateTimeFormatString/dateTimeFormatString_regex.csv"
+CSV_FILE_PATH = (
+        Path(__file__).parent.parent /
+        "practices/dateTimeFormatString/dateTimeFormatString_regex.csv")
 
 def load_csv_data(file_path):
     """
@@ -22,10 +24,13 @@ def load_csv_data(file_path):
 @pytest.mark.parametrize("row", load_csv_data(CSV_FILE_PATH))
 def test_datetime_format(row):
     """
-    Test that the regex in the third column matches the example date/time value in the second column.
+    Test that the regex in the third column matches the example date/time
+    value in the second column.
     """
     format_string, example_value, regex = row
-    assert re.match(regex, example_value), f"Regex '{regex}' did not match value '{example_value}' for format '{format_string}'"
+    assert re.match(regex, example_value), (f"Regex '{regex}' did not match "
+                                            f"value '{example_value}' for "
+                                            f"format '{format_string}'")
 
 
 if __name__ == "__main__":
