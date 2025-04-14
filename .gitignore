@@ -8,3 +8,6 @@
 ehthumbs.db
 Thumbs.db
 
+# Pycharm specific files
+.idea/
+
