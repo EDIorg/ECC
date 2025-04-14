@@ -7,7 +7,9 @@ definitions of acceptable date and time formats
 """
 
 import csv
+import re
 from itertools import permutations
+from pathlib import Path
 
 
 def generate_date_formats() -> list:
@@ -100,11 +102,12 @@ def generate_example_date(format_string: str) -> str:
     example_date_time = {
         "YYYY": "1976",
         "MM": "09",
+        "DDD": "267",
         "DD": "23",
         "hh": "11",
         "mm": "11",
-        "ss": "11",
         "sss": "888",
+        "ss": "11",
         "Z": "Z",
         "+hh:mm": "+07:30",
         "+hhmm": "+0730",
@@ -153,5 +156,5 @@ def main(csv_file_path: str) -> None:
 
 if __name__ == "__main__":
 
-    # Example usage
-    main('/Users/csmith/Data/ecc/dateTimeFormatString_list.csv')
+    CSV_FILE_PATH = Path(__file__).parent.parent / "practices/dateTimeFormatString/dateTimeFormatString_list.csv"
+    main(str(CSV_FILE_PATH))
