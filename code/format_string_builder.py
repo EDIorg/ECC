@@ -36,7 +36,7 @@ def generate_date_formats() -> list:
         "YYYY-DDD",
         "DDDYYYY",
         "DDD/YYYY",
-        "DDD-YYYY",
+        "DDD-YYYY"
     ])
 
     return format_strings
@@ -73,6 +73,9 @@ def generate_datetime_formats() -> list:
 
     formats = []
 
+    # Add date components
+    formats.extend(date_formats)
+
     # Generate combinations of date and time components
     for date_component in date_formats:
         for time_component in time_formats:
@@ -85,7 +88,7 @@ def generate_datetime_formats() -> list:
                 formats.append(date_component)
 
     # Additional specific formats
-    formats.extend(["YYYY-MM", "YYYYMM", "MMYYYY", "MM-YYYY"])
+    formats.extend(["YYYY-MM", "YYYYMM", "MMYYYY", "MM-YYYY", "YYYY"])
 
     return formats
 

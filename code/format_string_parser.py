@@ -179,9 +179,18 @@ def format_string_visitor(format_string):
                         monthDayYearDateTime /
                         dayMonthYearDateTime /
                         dayBasedDateReversedDateTime /
-                        monthYearDate /
-                        monthBasedDate \
-                        / dayBasedDate / yearMonth / year / timeZ
+                        yearDayMonth /
+                        dayMonthYear / 
+                        monthYearDay /
+                        monthDayYear /
+                        dayYearMonth /
+                        monthYearDate /                        
+                        monthBasedDate / 
+                        dayBasedDate / 
+                        dayBasedDateReversed /
+                        yearMonth / 
+                        year / 
+                        timeZ
         monthBasedDateTime = monthBasedDate T time Z
         dayBasedDateTime = dayBasedDate T time Z
         dayBasedDateReversedDateTime = dayBasedDateReversed T time Z
@@ -257,8 +266,10 @@ def main():
 
     """
     args = docopt(str(main.__doc__))
-    input = args['<input>']
-    output = args['<output>']
+    # input = args['<input>']
+    # output = args['<output>']
+    input = "/Users/csmith/Code/ECC/practices/dateTimeFormatString/dateTimeFormatString_list.csv"
+    output = "/Users/csmith/Code/ECC/practices/dateTimeFormatString/dateTimeFormatString_regex.csv"
 
     if input is None:
         fin = sys.stdin
