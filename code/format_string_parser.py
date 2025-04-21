@@ -12,6 +12,7 @@
     4/3/2018
 """
 
+import csv
 from docopt import docopt
 import logging
 from parsimonious.nodes import Node, NodeVisitor
@@ -266,10 +267,8 @@ def main():
 
     """
     args = docopt(str(main.__doc__))
-    # input = args['<input>']
-    # output = args['<output>']
-    input = "/Users/csmith/Code/ECC/practices/dateTimeFormatString/dateTimeFormatString_list.csv"
-    output = "/Users/csmith/Code/ECC/practices/dateTimeFormatString/dateTimeFormatString_regex.csv"
+    input = args['<input>']
+    output = args['<output>']
 
     if input is None:
         fin = sys.stdin
@@ -299,6 +298,29 @@ def main():
         fout.close()
 
     logger.info("Finished program")
+
+
+def diff_datetime_format_lists(path1, path2):
+    """
+    Compare two CSV files containing datetime format strings and return
+    the differences between them.
+
+    :param path1: Path to the first CSV file.
+    :param path2: Path to the second CSV file.
+    """
+    with open(path1, mode="r", encoding="utf-8") as file1, \
+         open(path2, mode="r", encoding="utf-8") as file2:
+        reader1 = csv.reader(file1)
+        reader2 = csv.reader(file2)
+
+        # Create set of values in first column of reader2
+        reader2_set = {row[0] for row in reader2}
+
+        # compare the first item in each row of reader1 against reader2_set
+        # and return if matches
+        diff = [row[0] for row in reader1 if row[0] not in reader2_set]
+
+        return diff
 
 
 if __name__ == "__main__":
