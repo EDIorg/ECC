@@ -61,6 +61,7 @@ def generate_datetime_formats() -> list:
         "hh:mm:ss.sss",
     ]
     timezone_formats = [
+        "",
         "Z",
         "+hh:mm",
         "+hhmm",
@@ -86,6 +87,12 @@ def generate_datetime_formats() -> list:
                             f"{date_component}{separator}{time_component}{tz_component}")
             else:
                 formats.append(date_component)
+
+    # Generate combinations of time and timezone components
+    for time_component in time_formats:
+        if time_component:
+            for tz_component in timezone_formats:
+                formats.append(f"{time_component}{tz_component}")
 
     # Additional specific formats
     formats.extend(["YYYY-MM", "YYYYMM", "MMYYYY", "MM-YYYY", "YYYY"])
